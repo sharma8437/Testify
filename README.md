@@ -1,6 +1,6 @@
 # Testify
 
-**Project Maintainer:** Nikesh Sharma  
+Project Name : Testify
 **Date Started:** 29-10-2024  
 **Status:** Ongoing  
 
