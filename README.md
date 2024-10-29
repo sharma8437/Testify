@@ -66,17 +66,17 @@ Expand the user interface for better user experience.
 Contributing
 We welcome contributions to Testify! If you would like to contribute, please follow these guidelines:
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/YourFeatureName
-Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add your message here"
-Push to the branch:
-bash
-Copy code
-git push origin feature/YourFeatureName
-Open a pull request.
+Fork the repository.    
+Create a new branch:   
+bash    
+Copy code           
+git checkout -b feature/YourFeatureName      
+Make your changes and commit them:         
+bash            
+Copy code             
+git commit -m "Add your message here"              
+Push to the branch:                  
+bash                     
+Copy code                  
+git push origin feature/YourFeatureName    
+Open a pull request.   
