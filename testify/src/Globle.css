@@ -1,0 +1,22 @@
+:global(body) {
+    font-family: 'Roboto', sans-serif; /* Ensure the font applies to the body */
+}
+
+/* src/global.css */
+
+/* Import a font from Google Fonts or use a default font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Universal style for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Set the universal font family */
+    background-color: #f4f4f4; /* Optional: Set a default background color */
+    color: #333; /* Optional: Set a default text color */
+    line-height: 1.6; /* Optional: Set line height for readability */
+}

@@ -1,0 +1,122 @@
+/* src/Styles/Footer.css */
+
+.footer {
+    background-color: #774141;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 130px;
+    height: 130px;
+    background-color: #e7e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.logo-icon h2 {
+    color: #c42d2d;
+    font-size: 32px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; /* Add margin for spacing */
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .footer-logo {
+        margin-bottom: 20px; /* Space between logo and sections */
+    }
+
+    .footer-section {
+        align-items: center; /* Center items within sections */
+        margin: 10px 0; /* Vertical spacing between sections */
+    }
+
+    .footer-section h4 {
+        font-size: 18px; /* Slightly smaller font for headings */
+    }
+
+    .footer-section ul li a {
+        font-size: 14px; /* Adjust link font size */
+    }
+
+    .social-icons a {
+        font-size: 20px; /* Adjust social icon size */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0; /* Reduce padding */
+    }
+
+    .footer-section h4 {
+        font-size: 16px; /* Smaller font for headings */
+    }
+
+    .footer-section ul li a {
+        font-size: 12px; /* Smaller link font size */
+    }
+}
