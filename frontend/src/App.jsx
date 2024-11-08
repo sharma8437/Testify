@@ -1,13 +1,15 @@
 
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Footer from './components/Footer'
-import HeroSection from './components/HeroSection'
-import Navbar from './Components/Navbar'
-import ChooseUs from './pages/ChooseUs'
+
+import Home from './home/Home'
+import AboutUs from './Pages/AboutUs'
 import ForgotPassword from './pages/ForgotPassword'
+
+import Login from './Pages/Login'
 // import Login from './pages/Login'
 import Signup from './pages/Signup'
-import Teams from './pages/Teams'
+
 
 
 
@@ -16,7 +18,18 @@ function App() {
 
   return (
     <>
-<Navbar />
+  
+<Routes>
+<Route path='/' element={<Home />} />
+<Route path='/about' element={<AboutUs />} />
+
+<Route path='/signup' element={<Signup />} />
+<Route path='/login' element={<Login />} />
+<Route path='/ForgotPassword' element={<ForgotPassword />} />
+
+</Routes>
+
+
     </>
   )
 }

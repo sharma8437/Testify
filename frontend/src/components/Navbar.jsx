@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -21,19 +22,19 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a>Services</a>
+        <Link to="/services">Services</Link>
       </li>
       <li>
-        <a>About</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a>Support</a>
+        <Link to="/support">Support</Link>
       </li>
       <li>
-        <a>Help</a>
+        <Link to="/help">Help</Link>
       </li>
     </>
   );
@@ -72,7 +73,7 @@ const Navbar = () => {
                 {navItems}
               </ul>
             </div>
-            <a className="btn btn-ghost text-2xl font-bold text-red-600">Testify</a>
+            <Link to="/" className="btn btn-ghost text-2xl font-bold text-red-600">Testify</Link>
           </div>
 
           <div className="navbar-center hidden lg:flex ">
@@ -112,12 +113,12 @@ const Navbar = () => {
             <div className='px-6'>
 
             
-            <a className="text-red-600 px-4 py-1.5 rounded-md hover:underline duration-300 cursor-pointer">
+            <Link to="/login" className="text-red-600 px-4 py-1.5 rounded-md hover:underline duration-300 cursor-pointer">
               Login
-            </a>
-            <a className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer ml-4">
+            </Link>
+            <Link to="/signup" className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer ml-4">
               Signup
-            </a>
+            </Link>
             </div>
           </div>
         </div>

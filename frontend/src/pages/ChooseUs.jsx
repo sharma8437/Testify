@@ -1,50 +1,66 @@
 import React from 'react';
-import teams from "../../public/teams.json";
-import choseus from "../assets/choseus.svg";
+import time from "../assets/time.svg"
 
 const ChooseUs = () => {
   return (
-    <>
 
-<div  className="max-w-screen-2xl container mx-auto md:px-20 px-4 text-center text-4xl text-red-600 font-bold">
+    <div className='max-w-screen-2xl container mx-auto md:px-20 py-4'>
 
-<h1>Why Chose Us !</h1>
+   
+    <div className="p-8  text-gray-900 max-w-screen-2xl container mx-auto md:px-20 py-12">
+      <h1 className="text-5xl font-bold mb-10 text-center text-red-600">Why Choose Us</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {[
+          {
+            images:time,
+            title: 'Seamless Integration',
+            description: 'Our platform seamlessly integrates with existing HR tools, ensuring a smooth and efficient workflow.'
+          },
+          {
+            images:time,
+            title: 'Secure Live Video Recording',
+            description: 'We offer secure, real-time video recording to monitor assessments and maintain the highest standards of integrity.'
+          },
+          {
+            images:time,
+            title: 'Data-Driven Insights',
+            description: 'Get detailed analytics and data-driven insights to make informed hiring decisions quickly and effectively.'
+          },
+          {
+            images:time,
+            title: 'User-Friendly Dashboard',
+            description: 'Our intuitive dashboard is designed for ease of use, giving HR teams all the necessary tools at their fingertips.'
+          },
+          {
+            images:time,
+            title: 'Customizable Assessments',
+            description: 'Create and customize assessments tailored to specific job roles and requirements, ensuring candidate suitability.'
+          },
+          {
+            images:time,
+            title: '24/7 Support',
+            description: 'Our dedicated support team is available around the clock to assist you with any questions or issues.'
+          }
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300 border border-gray-200"
+          >
+           <div className="flex items-center justify-center">
+  <img src={item.images} alt="time" className="w-8 h-20" />
 </div>
-   <div  className="max-w-screen-2xl container mx-auto md:px-20 px-4 text-center text-4xl text-red-600 font-bold flex">
-
-   
-
-    
-   
-    <div className="flex flex-wrap justify-center gap-4 my-10">
-
-      {teams.map((item, index) => (
-        <div key={index} className="card bg-base-100 w-96 shadow-xl">
-          <figure className="px-10 pt-10">
-            <img
-              src={item.image} // Assuming each team member has an image URL
-              alt={item.name} // Assuming each team member has a name
-              className="rounded-xl"
-            />
-          </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">{item.name}</h2> {/* Displaying name */}
-            <p>{item.description}</p> {/* Displaying description */}
-            <div className="card-actions">
-             
-            </div>
+            <h2 className="text-2xl font-semibold mb-4 text-red-500 hover:text-blue-700 transition duration-300">
+              {item.title}
+            </h2>
+            <p className="text-gray-700">
+              {item.description}
+            </p>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-
-    <div className='mr-32'>
-       <img src={choseus} alt="Chouse Us" className="" />
     </div>
-
-    </div>
-    </>
   );
-}
+};
 
 export default ChooseUs;

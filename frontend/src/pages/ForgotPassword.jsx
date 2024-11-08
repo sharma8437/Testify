@@ -1,22 +1,36 @@
-import React, { useState } from "react"; // Import useState
+import React, { useState } from "react";
 import { LockClosedIcon } from "@heroicons/react/solid"; // Adjust the import for v2
 
 export default function ForgotPassword() {
-  const [email, setEmail] = useState(''); // State for the email input
+  const [email, setEmail] = useState("");
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleForgotPassword = async (e) => {
+  // Regex pattern for simple email validation
+  const validateEmail = (email) => {
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5000/api/auth/forgot-password', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
-    });
 
-    if (response.ok) {
-      alert('Password reset link sent');
-    } else {
-      alert('Email not found');
+    // Check if the email is valid
+    if (!validateEmail(email)) {
+      setError("Please enter a valid email address.");
+      return;
     }
+
+    // Clear any existing error and set processing state
+    setError("");
+    setIsProcessing(true);
+
+    // Simulate an async request
+    setTimeout(() => {
+      alert("Password reset link has been sent to your email!");
+      setIsProcessing(false);
+      setEmail(""); // Clear the input
+    }, 2000); // Simulate network delay
   };
 
   return (
@@ -33,32 +47,34 @@ export default function ForgotPassword() {
           </p>
         </div>
 
-        <form onSubmit={handleForgotPassword} className="mt-8 space-y-6">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
           <div className="relative">
             <input
               id="email"
               name="email"
               type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
               autoComplete="email"
-              value={email} // Bind the email state
-              onChange={(e) => setEmail(e.target.value)} // Update email state on change
               className="block w-full rounded-lg border border-gray-300 p-3 text-gray-900 placeholder-gray-400 shadow-sm focus:outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500 transition"
               placeholder="Enter Your Registered Email"
             />
+            {error && <p className="mt-2 text-sm text-red-500">{error}</p>}
           </div>
 
           <button
             type="submit"
             className="w-full py-2.5 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-500 transition focus:ring-2 focus:ring-red-600 focus:ring-offset-2"
+            disabled={isProcessing}
           >
-            Send Reset Link
+            {isProcessing ? "Processing..." : "Send Reset Link"}
           </button>
         </form>
 
         <p className="mt-8 text-center text-sm text-gray-500">
-          Remember your password?{' '}
-          <a href="/" className="font-medium text-indigo-600 hover:underline">
+          Remember your password?{" "}
+          <a href="/login" className="font-medium text-indigo-600 hover:underline">
             Sign in
           </a>
         </p>
@@ -66,3 +82,5 @@ export default function ForgotPassword() {
     </div>
   );
 }
+
+
