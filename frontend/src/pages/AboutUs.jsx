@@ -13,7 +13,7 @@ export default function AboutUs() {
         </h1>
         <p className="text-center text-gray-600 mt-4">
           We’re committed to inspiring minds and fostering a community of
-          growth. Hello this is about.
+          growth. Mehul Updated
         </p>
       </div>
 
