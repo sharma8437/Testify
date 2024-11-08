@@ -2,7 +2,7 @@
 import './App.css'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
-import Navbar from './components/Navbar'
+import Navbar from './Components/Navbar'
 import ChooseUs from './pages/ChooseUs'
 import ForgotPassword from './pages/ForgotPassword'
 // import Login from './pages/Login'
@@ -16,16 +16,7 @@ function App() {
 
   return (
     <>
- <Navbar />
- <HeroSection />
- <Teams />
- <ChooseUs />
- {/* <Login /> */}
- <ForgotPassword />
- <Signup /> 
-
-
- <Footer />
+<Navbar />
     </>
   )
 }
