@@ -7,5 +7,12 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+=======
+>>>>>>> c89eb929498e90b78d0a36554f01232d8627aa1c
+    "express": "^4.21.1"
+  }
 }
