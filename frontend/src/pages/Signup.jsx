@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
-    <div className="flex items-center justify-center h-screen w-screen bg-gray-50 shadow-lg rounded-lg p-6 md:p-8">
+    <div className="flex items-center justify-center min-h-screen bg-white shadow-lg rounded-lg p-6 md:p-8 flex-col">
       {/* Right Form */}
-      <div className="w-full md:w-3/5 lg:w-1/2 p-4 md:p-8">
+      <div className="w-full md:w-3/5 lg:w-1/2 p-4 md:p-8 flex flex-col justify-between flex-grow">
         {/* Logo */}
         <div className="flex items-center justify-center mb-6">
-          <span className="ml-2 text-4xl font-bold text-red-600">Testify</span>
+          <span className="ml-2 text-4xl font-bold text-red-600 ">Testify</span>
         </div>
 
         {/* Title and Subtitle */}
@@ -92,25 +92,15 @@ const Signup = () => {
             Sign Up
           </button>
         </form>
-
-        {/* Footer */}
-        <div className="mt-6 text-center text-sm text-gray-600">
-          Already have an account?{" "}
-          <Link to="/login" className="text-red-600 hover:underline">
-            Login
-          </Link>
-        </div>
-
-        {/* Divider */}
-        {/* <div className="my-6 text-center text-gray-400 text-sm">or</div> */}
-
-        {/* Social Media Icons */}
-        
       </div>
-      {/* Optional Left Illustration */}
-      {/* <div className="hidden md:block w-1/2 pr-8">
-        <img src="https://img.freepik.com/premium-vector/register-button-design_24911-41801.jpg?w=1060" alt="Illustration" className="max-w-full h-auto" />
-      </div> */}
+
+      {/* Footer */}
+      <div className="w-full text-center text-sm text-gray-600 mt-6">
+        Already have an account?{" "}
+        <Link to="/login" className="text-red-600 hover:underline">
+          Login
+        </Link>
+      </div>
     </div>
   );
 };

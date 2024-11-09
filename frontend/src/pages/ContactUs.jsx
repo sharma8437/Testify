@@ -22,7 +22,7 @@ const ContactUs = () => {
   return (
 
     <div className="max-w-screen-2xl container mx-auto md:px-20 py-4">
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-base-100">
       <div className="w-[60%] p-8 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold text-center text-red-600">Contact Us</h2>
 

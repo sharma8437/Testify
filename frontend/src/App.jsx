@@ -1,6 +1,7 @@
 
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import "../src/styles/homePage_containerBoxShadow.css";
 
 import Home from './home/Home'
 import AboutUs from './Pages/AboutUs'

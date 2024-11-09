@@ -1,37 +1,37 @@
-[
-    {
-        "id":"1",
-        "image":"/assets/nikesh.jpg",
-        "name":"Nikesh sharma",
-        "description":"This is nikesh sharma"
+// [
+//     {
+//         "id":"1",
+//         "image":"/assets/nikesh.jpg",
+//         "name":"Nikesh sharma",
+//         "description":"This is nikesh sharma"
 
-    },
-    {
-        "id":"2",
-        "image":"/assets/nikesh.jpg",
-        "name":"sonu ",
-        "description":"This is nikesh sharma"
+//     },
+//     {
+//         "id":"2",
+//         "image":"/assets/nikesh.jpg",
+//         "name":"sonu ",
+//         "description":"This is nikesh sharma"
 
-    },
-    {
-        "id":"3",
-        "image":"/assets/nikesh.jpg",
-        "name":" Mehul Kalra",
-        "description":"This is nikesh sharma"
+//     },
+//     {
+//         "id":"3",
+//         "image":"/assets/nikesh.jpg",
+//         "name":" Mehul Kalra",
+//         "description":"This is nikesh sharma"
 
-    },
-    {
-        "id":"4",
-        "image":"/assets/nikesh.jpg",
-        "name":"Aryan sharma",
-        "description":"This is nikesh sharma"
+//     },
+//     {
+//         "id":"4",
+//         "image":"/assets/nikesh.jpg",
+//         "name":"Aryan sharma",
+//         "description":"This is nikesh sharma"
 
-    },
-    {
-        "id":"5",
-        "image":"/assets/nikesh.jpg",
-        "name":"Sujal",
-        "description":"This is nikesh sharma"
+//     },
+//     {
+//         "id":"5",
+//         "image":"/assets/nikesh.jpg",
+//         "name":"Sujal",
+//         "description":"This is nikesh sharma"
 
-    }
-]
+//     }
+// ]

@@ -47,7 +47,7 @@ const HeroSection = () => {
           <img
             src={banner}
             alt=""
-            className=" w-96 h-96 dark:p-6 md:ml-48 mt-28 ml-7"
+            className=" w-96 h-96 dark:p-6 md:ml-48 mt-28 ml-7 hover:scale-110 transition-all duration-300 ease-in-out"
           />
 
 

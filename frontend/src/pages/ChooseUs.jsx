@@ -9,7 +9,7 @@ const ChooseUs = () => {
    
     <div className="p-8  text-gray-900 max-w-screen-2xl container mx-auto md:px-20 py-12">
       <h1 className="text-5xl font-bold mb-10 text-center text-red-600">Why Choose Us</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
         {[
           {
             images:time,
@@ -44,7 +44,7 @@ const ChooseUs = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300 border border-gray-200"
+            className="p-8 bg-white  hover:shadow-red-400 rounded-lg shadow-lg hover:shadow-sm hover:scale-105 transform transition duration-300 border border-gray-200"
           >
            <div className="flex items-center justify-center">
   <img src={item.images} alt="time" className="w-8 h-20" />
