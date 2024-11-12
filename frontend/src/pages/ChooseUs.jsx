@@ -1,5 +1,8 @@
 import React from 'react';
 import time from "../assets/time.svg"
+import user from "../assets/user.svg"
+import time2 from "../assets/time2.svg"
+import lock from "../assets/lock.svg"
 
 const ChooseUs = () => {
   return (
@@ -17,17 +20,17 @@ const ChooseUs = () => {
             description: 'Our platform seamlessly integrates with existing HR tools, ensuring a smooth and efficient workflow.'
           },
           {
-            images:time,
+            images:lock,
             title: 'Secure Live Video Recording',
             description: 'We offer secure, real-time video recording to monitor assessments and maintain the highest standards of integrity.'
           },
           {
-            images:time,
+            images:time2,
             title: 'Data-Driven Insights',
             description: 'Get detailed analytics and data-driven insights to make informed hiring decisions quickly and effectively.'
           },
           {
-            images:time,
+            images:user,
             title: 'User-Friendly Dashboard',
             description: 'Our intuitive dashboard is designed for ease of use, giving HR teams all the necessary tools at their fingertips.'
           },

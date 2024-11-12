@@ -7,6 +7,7 @@ import Navbar from '../Components/Navbar.jsx'
 import ChooseUs from '../pages/ChooseUs.jsx'
 import OurMission from '../Pages/Mission.jsx'
 import ContactUs from '../Pages/ContactUs.jsx'
+import Help from '../Pages/Help.jsx'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <ChooseUs />
    <Teams />
    <OurMission />
+   <Help />
  <ContactUs />
     <Footer />
 
