@@ -15,6 +15,7 @@ function Quiz() {
   const isCorrectAnswer = selectedAnswer === "D";
 
   return (
+    <div className="max-w-screen-2xl container mx-auto md:px-20 py-4">
     <div className="bg-red-200 min-h-screen flex items-center justify-center">
 <div className="bg-white rounded-lg shadow-lg max-w-[800px] w-full p-6 h-[668px]">
         <h1 className="text-2xl font-bold mb-4">UI UX Design Quiz</h1>
@@ -75,6 +76,7 @@ function Quiz() {
           </div>
         )}
       </div>
+    </div>
     </div>
   );
 }

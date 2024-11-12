@@ -2,6 +2,7 @@ import React from 'react';
 
 function ExamPage() {
   return (
+    <div className='max-w-screen-2xl container mx-auto md:px-20 py-4'>
     <div className="bg-gray-100 p-4 min-h-screen  mix-h-screen flex flex-col items-center">
      
       {/* Header */}
@@ -104,6 +105,7 @@ function ExamPage() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

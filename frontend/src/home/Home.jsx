@@ -6,10 +6,10 @@ import Navbar from '../Components/Navbar.jsx'
 import ChooseUs from '../pages/ChooseUs.jsx'
 import OurMission from '../Pages/Mission.jsx'
 import ContactUs from '../Pages/ContactUs.jsx'
-// import QuizDetails from "../pages/TestDisc.jsx"
+import QuizDetails from "../pages/TestDisc.jsx"
 
-// import Quiz from "../pages/QuestionWindow.jsx"
-// import ExamPage from '../pages/Test.jsx'
+import Quiz from "../pages/QuestionWindow.jsx"
+import ExamPage from '../pages/Test.jsx'
 
 
 const Home = () => {
@@ -18,13 +18,13 @@ const Home = () => {
     <Navbar />
     <HeroSection />
     <ChooseUs />
-    {/* <QuizDetails/>
-  <Quiz/>
-    <ExamPage/> */}
-   <Teams />
    <OurMission />
+   <Teams />
  <ContactUs />
     <Footer />
+    <QuizDetails/>
+  {/* <Quiz/> */}
+    <ExamPage/>
 
    
 
