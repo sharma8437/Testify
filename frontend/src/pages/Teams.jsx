@@ -52,6 +52,7 @@ const Teams = () => {
   ];
 
   return (
+    <div className="max-w-screen-2xl container mx-auto md:px-20 py-4">
     <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
       <div className="text-center text-3xl text-red-600 font-bold mb-5 ">
         <h1>Meet Our Team!</h1>
@@ -85,6 +86,7 @@ const Teams = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

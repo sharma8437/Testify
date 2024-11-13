@@ -50,10 +50,10 @@ const Navbar = () => {
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/support">Support</Link>
+        <Link to="/support">Help</Link>
       </li>
       <li>
-        <Link to="/help">Help</Link>
+        <Link to="/help">Contact Us</Link>
       </li>
     </>
   );

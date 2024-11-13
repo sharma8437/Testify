@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { FaInstagram, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -28,10 +29,10 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-1">Explore</h3>
             <ul>
-              <li className="mb-1"><a href="#" className="hover:text-red-600">Home</a></li>
-              <li className="mb-1"><a href="#" className="hover:text-red-600">Services</a></li>
-              <li className="mb-1"><a href="#" className="hover:text-red-600">About us</a></li>
-              <li><a href="#" className="hover:text-red-600">Support</a></li>
+              <li className="mb-1"><Link to="/" className="hover:text-red-600">Home</Link></li>
+              <li className="mb-1"><Link to="/service" className="hover:text-red-600">Services</Link></li>
+              <li className="mb-1"><Link to="/About" className="hover:text-red-600">About us</Link></li>
+              <li><Link to="/support" className="hover:text-red-600">Support</Link></li>
             </ul>
           </div>
 

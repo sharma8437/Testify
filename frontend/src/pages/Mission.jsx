@@ -21,7 +21,7 @@ const OurMission = () => {
   ];
 
   return (
-
+    
     <div className="max-w-screen-2xl container mx-auto md:px-20 py-4">
 
    
@@ -43,6 +43,7 @@ const OurMission = () => {
       </div>
     </div>
     </div>
+  
   );
 };
 
