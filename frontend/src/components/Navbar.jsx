@@ -50,7 +50,7 @@ const Navbar = () => {
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/team">Team dfvfgrgrgvdvfdsvfed</Link>
+        <Link to="/team">Team </Link>
       </li>
       <li>
         <Link to="/support">Help</Link>
@@ -63,6 +63,7 @@ const Navbar = () => {
 
   return (
     <>
+    
    
    <div className={`fixed top-0 left-0 right-0 z-50 w-full ${
     sticky

@@ -4,6 +4,7 @@ import banner from "../assets/banner.svg";
 const HeroSection = () => {
   return (
     <>
+    <div className='max-w-screen-2xl container mx-auto md:px-20 py-4'>
       <div className="max-w-screen-2xl container mx-auto md:px-20 py-4 flex flex-col md:flex-row my-14 ">
         <div className="w-full md:w-1/2 mt-14 md:mt-36 order-2 md:order-1">
           <div className="space-y-10">
@@ -53,6 +54,8 @@ const HeroSection = () => {
 
         </div>
       </div>
+      </div>
+      
     </>
   );
 };
