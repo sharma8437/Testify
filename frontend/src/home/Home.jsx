@@ -7,6 +7,7 @@ import ChooseUs from "../pages/ChooseUs.jsx";
 import OurMission from "../Pages/Mission.jsx";
 import ContactUs from "../Pages/ContactUs.jsx";
 import AboutUs from "../pages/AboutUs.jsx";
+import Gridarea from "../components/admin-components/Gridarea.jsx";
 
 import Help from "../Pages/Help.jsx";
 
@@ -28,6 +29,7 @@ const Home = () => {
       <div id="contact">
         <ContactUs />
       </div>
+      <Gridarea />
       <Footer />
       {/* <QuizDetails/> */}
       {/* <Quiz/> */}
