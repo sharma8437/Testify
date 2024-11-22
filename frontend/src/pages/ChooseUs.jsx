@@ -6,8 +6,10 @@ import lock from "../assets/lock.svg"
 
 const ChooseUs = () => {
   return (
+    
 
     <div className='max-w-screen-2xl container mx-auto md:px-20 py-4'>
+      
 
    
     <div className="p-8  text-gray-900 max-w-screen-2xl container mx-auto md:px-20 py-12">

@@ -56,7 +56,7 @@ const Navbar = () => {
         <Link to="/support">Help</Link>
       </li>
       <li>
-        <Link to="/help">Contact Us</Link>
+        <Link to="contact" smooth={true} duration={500}>Contact Us</Link>
       </li>
     </>
   );

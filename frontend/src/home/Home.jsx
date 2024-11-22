@@ -22,10 +22,12 @@ const Home = () => {
       <HeroSection />
       <ChooseUs />
       <OurMission />
-      <AboutUs/>
+      <AboutUs/> 
       <Teams />
       <Help />
-      <ContactUs />
+      <div id="contact">
+        <ContactUs />
+      </div>
       <Footer />
       {/* <QuizDetails/> */}
       {/* <Quiz/> */}
