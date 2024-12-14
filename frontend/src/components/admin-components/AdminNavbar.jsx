@@ -17,7 +17,7 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-function Navbar() {
+function AdminNavbar() {
 
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -169,4 +169,4 @@ function Navbar() {
     </AppBar>
   );
 }
-export default Navbar;
+export default AdminNavbar;

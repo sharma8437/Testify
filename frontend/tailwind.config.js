@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -10,7 +12,7 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui], // Use import here instead of require
   darkMode: "class", // This enables class-based dark mode control
   daisyui: {
     themes: ["light"], // Set the default theme to "light"; add "dark" if you want to switch themes manually

@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <>
     
-    <div className='max-w-screen-2xl container mx-auto md:px-20 py-4'>
+    <div className='max-w-screen-2xl container mx-auto md:px-20 py-2'>
       <div className="max-w-screen-2xl container mx-auto md:px-20 py-4 flex flex-col md:flex-row my-14 ">
         <div className="w-full md:w-1/2 mt-14 md:mt-36 order-2 md:order-1">
           <div className="space-y-10">
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
             
 
-            <p className="text-xl mt-32 ">
+            <p className="text-md mt-32 ">
               At Testify, we believe that every candidate has the potential to
               shine; our goal is to illuminate their strengths and provide HR
               teams with the clarity they need to make informed decisions
@@ -45,11 +45,11 @@ const HeroSection = () => {
             FeedBack
           </button>
         </div>
-        <div className="w-full md:w-1/2 order-1">
+        <div className="w-full md:w-1/2 order-1 mr-11">
           <img
             src={banner}
             alt=""
-            className=" w-96 h-96 dark:p-6 md:ml-48 mt-28 ml-7 hover:scale-110 transition-all duration-300 ease-in-out"
+            className=" w-96 h-96 dark:p-6 md:ml-48 mt-28 ml-7   hover:scale-110 transition-all duration-300 ease-in-out"
           />
 
 

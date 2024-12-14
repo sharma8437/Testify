@@ -57,7 +57,7 @@ const Teams = () => {
       <div className="text-center text-3xl text-red-600 font-bold mb-5 ">
         <h1>Meet Our Team!</h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 ">
         {teams.map((item, index) => (
           <div
             key={index}

@@ -15,11 +15,13 @@ import QuizDetails from "../pages/TestDisc.jsx";
 
 // import Quiz from "../pages/QuestionWindow.jsx"
 import ExamPage from "../pages/Test.jsx";
+import AdminDashboard from "../adminDashboard/AdminDashboard.jsx";
+import AdminNavbar from "../components/admin-components/AdminNavbar.jsx";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+       <Navbar />
       <HeroSection />
       <ChooseUs />
       <OurMission />
@@ -28,12 +30,13 @@ const Home = () => {
       <Help />
       <div id="contact">
         <ContactUs />
-      </div>
-      <Gridarea />
+      </div> 
+    
       <Footer />
-      {/* <QuizDetails/> */}
-      {/* <Quiz/> */}
-      {/* <ExamPage/> */}
+
+     
+      {/* <AdminDashboard /> */}
+     
     </>
   );
 };
