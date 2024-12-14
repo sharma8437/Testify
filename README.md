@@ -21,10 +21,10 @@ Testify is an innovative platform designed to streamline the candidate assessmen
   <img width="1213" alt="Screenshot 2024-12-14 at 2 33 59 PM" src="https://github.com/user-attachments/assets/93f43ed7-cd80-420d-bb61-9cee531181a2" />
   
 <div style="display: flex; justify-content: space-around; margin-left: '190px'">
-   <img width="305" height="380" alt="Screenshot 2024-12-14 at 2 36 05 PM" src="https://github.com/user-attachments/assets/71a0b6d0-861e-4842-b6ac-b2459a03378b" />
-<img width="310" height="380" alt="Screenshot 2024-12-14 at 2 46 26 PM" src="https://github.com/user-attachments/assets/c8fedc85-a9b5-4dfe-811c-268ab3e69bae" />
+   <img width="280" height="380" alt="Screenshot 2024-12-14 at 2 36 05 PM" src="https://github.com/user-attachments/assets/71a0b6d0-861e-4842-b6ac-b2459a03378b" />
+<img width="280" height="380" alt="Screenshot 2024-12-14 at 2 46 26 PM" src="https://github.com/user-attachments/assets/c8fedc85-a9b5-4dfe-811c-268ab3e69bae" />
    
-<img width="380" height="380" alt="Screenshot 2024-12-14 at 2 47 58 PM" src="https://github.com/user-attachments/assets/ddcba997-05dc-431f-aa73-df8abf8370cb" />
+<img width="280" height="380" alt="Screenshot 2024-12-14 at 2 47 58 PM" src="https://github.com/user-attachments/assets/ddcba997-05dc-431f-aa73-df8abf8370cb" />
 </div>
 
 ##Login Page .....
