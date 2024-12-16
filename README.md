@@ -17,11 +17,11 @@ Testify is an innovative platform designed to streamline the candidate assessmen
 - **User-Friendly Interface:** Simple navigation for both candidates and HR users.
 
   ## Output
-  ##Home Page
+  ## Home Page
   <img width="1213" alt="Screenshot 2024-12-14 at 2 33 59 PM" src="https://github.com/user-attachments/assets/93f43ed7-cd80-420d-bb61-9cee531181a2" />
   
-  ##WHY-CHOOSE-US
-  <img width="500"  alt="Screenshot 2024-12-14 at 2 36 05 PM" src="https://github.com/user-attachments/assets/71a0b6d0-861e-4842-b6ac-b2459a03378b" style="max-width: auto; height: auto; margin-left: 150px " />
+  ## WHY-CHOOSE-US
+  <img width="1213"  alt="Screenshot 2024-12-14 at 2 36 05 PM" src="https://github.com/user-attachments/assets/71a0b6d0-861e-4842-b6ac-b2459a03378b" style="max-width: auto; height: auto; margin-left: 150px " />
 
   ## Contact-Us
   <img width="500"  alt="Screenshot 2024-12-14 at 2 46 26 PM" src="https://github.com/user-attachments/assets/c8fedc85-a9b5-4dfe-811c-268ab3e69bae" style="max-width: auto; height: auto; margin-left: 150px " />
